@@ -14,5 +14,8 @@ namespace TechJobs.ViewModels
         // View title
         public string Title { get; set; } = "";
 
+        // The column to search, defaults to all
+        public JobFieldType Column { get; set; } = JobFieldType.All;
+
     }
 }
